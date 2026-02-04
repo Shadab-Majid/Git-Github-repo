@@ -13,3 +13,18 @@ will do store here initially.              to this area which can be tracked by 
 This is the untracked area which                                                                             and if that get commit it will show the changes information by using git log.
 can't be tracked by git means git don't 
 know about this files.
+
+
+                                                                                                            mahtabalam@Shadabs-MacBook-Air git % git log 
+                                                                                                            commit e998440abba136e0fd18be889f2b8dd4839b272a (HEAD -> main)
+                                                                                                            Author: shadab <shadabmajid13@gmail.com>
+                                                                                                            Date:   Wed Feb 4 12:56:05 2026 +0530
+
+                                                                                                                second-commit
+
+                                                                                                            commit e0f0b0187491e32f7515db412ea28b45e6ba7ae0
+                                                                                                            Author: shadab <shadabmajid13@gmail.com>
+                                                                                                            Date:   Wed Feb 4 12:44:58 2026 +0530
+
+                                                                                                                first commit
+                                                                                                            mahtabalam@Shadabs-MacBook-Air git % 
