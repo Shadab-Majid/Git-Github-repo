@@ -50,3 +50,32 @@ forking: forking is the process of copying any remote repo to you remote repo an
 // command to remove the remote device from your local 
 git remote remove origin // your repo
 git remote remove upstream // main repo which you have forked.
+
+
+//steps of forking any project.
+
+1. forked the repository first
+2. clone your forked repo into your local machine via https or ssh
+run this command: git clone https://github.com/shadab-majid/Spoon-Knife.git
+3. Now you have your forked repo into your local machine now you need to update your forked repo with remote repo which you have forked.
+run this command : git remote add upstream https://github.com/octocat/Spoon-Knife.git
+4. then check git remote -v 
+it will show you your origin (which is your remote repo from your github or gitlab.) remote url and upstream url (which is your main repo url ) for fetch and pulling.
+5. Now you only have remote fork repo chagnes you need to update pull changes from the upstream repo 
+run this command : git fetch --all
+after running this command it will show all branch of upstream repo .
+6. then you need pull all changes from the upstream to your origin for doing this create respective branch according to the upstream repo and pull changes from that to your origin branch.
+commands: 
+suppose you have main and staging branch in upstream then follow this :
+
+git checkout main 
+git pull upstream main 
+git push origin main 
+
+git checkout -b staging 
+git pull upstream staging 
+git push origin staging
+
+by doing this you have the updated code of upstream repo to your forked one.
+
+7. After updating your fork from now if you do any changes to any branch then you need to push this to your origin branc then needs to crate a merge reques from you remote ui.
