@@ -1,0 +1,9 @@
+git add . (to tracked all changes.)
+git add filename (to tracked specific file)
+
+use "git restore --staged <file>..." to unstage
+use git restore --staged  to unstage all
+
+
+git commit -m"message"(to commit the changes into .git file)
+git rm --cached test.txt (to remove version/data history from git repo)
