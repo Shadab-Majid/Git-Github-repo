@@ -40,3 +40,10 @@ git stash
 git stash file_name
 
 git stash pop (for getting the stash changes from the backstage.)
+
+// Differece between the clonning and forking 
+
+clonning : In cloning we pull any repo from the remote and do work on that. We push and pull directly to that repo and for doing this we need an access permission of that remote repo owner.
+
+forking: forking is the process of copying any remote repo to you remote repo and then clone or pull that forked repo to you local device and do any changes and after changes we will push and pull from our forked repo and then if we want to add those changes inside the main repo we need to craete a pull request from our remote repo. 
+
