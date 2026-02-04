@@ -26,7 +26,17 @@ git push origin main
 // if want to pull into remote repo use this command 
 git pull origin main
 
+//mering is the process of attaching any other branch changes to the current working branch.
 
+command: 
+git merge branch name 
 
+//once we merge the changes in master or main we no need to that branch which we have merged so if we want we can remove that.
+git branch -d branch_name
 
+//stashing.
+// if we want to to remove any uncommit changes and revert to its previous changes we can use(back-stage):
+git stash 
+git stash file_name
 
+git stash pop (for getting the stash changes from the backstage.)
