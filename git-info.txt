@@ -21,7 +21,7 @@ Differece between the git and github.
 git :  is the local repo which is limited to local system.
 
                                                                                                             mahtabalam@Shadabs-MacBook-Air git % git log 
-github: Its a remote repo which helps to access any files from any system. Its a cloud base system.                                                                                             commit e998440abba136e0fd18be889f2b8dd4839b272a (HEAD -> main)
+github: Its a remote repository which helps to access any files from any system. Its a cloud base system.                                                                                             commit e998440abba136e0fd18be889f2b8dd4839b272a (HEAD -> main)
                                                                                                             Author: shadab <shadabmajid13@gmail.com>
                                                                                                             Date:   Wed Feb 4 12:56:05 2026 +0530
 

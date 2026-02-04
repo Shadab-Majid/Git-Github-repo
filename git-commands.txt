@@ -1,3 +1,7 @@
+this is the pdf link: 
+
+https://drive.google.com/file/d/1V_LBHrxJcRoPbIqYHgdPnHTAT68LMGH1/view?usp=sharing
+
 git add . (to tracked all changes.)
 git add filename (to tracked specific file)
 
@@ -7,3 +11,22 @@ use git restore --staged  to unstage all
 
 git commit -m"message"(to commit the changes into .git file)
 git rm --cached test.txt (to remove version/data history from git repo)
+
+by default track changes in local system if we want to hadle via github or other destributed system we can use this command
+
+git remote add origin git@github.com:Shadab-Majid/Git-Github-repo.git
+
+//if want to check the remote repo use this command 
+git remote -v
+
+
+// if want to push into remote repo use this command 
+git push origin main
+
+// if want to pull into remote repo use this command 
+git pull origin main
+
+
+
+
+
