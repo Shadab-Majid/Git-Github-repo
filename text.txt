@@ -1,1 +1,15 @@
 Hello this is git repo.To open any file using cli write: vi file.name and to see the content of any file in cli: cat filename
+
+git is working in our local system until we don't use any remote destributed control system like gitlab or github.
+
+In our system git works in three directory:
+
+working directory                           staging-area                                            .git (repository where git keep all records.)
+(diretory where all files presetn)     (area where those files present which git can track)                 (this is the place where git store changes or tracking the changes of commited files.)
+                                        
+
+whatever files or work we                  once we run git add . or add any file that will comm             once we commit any changes that file or changes ss will come
+will do store here initially.              to this area which can be tracked by git.                        to this repo and from now whatever changes will happen to this file 
+This is the untracked area which                                                                             and if that get commit it will show the changes information by using git log.
+can't be tracked by git means git don't 
+know about this files.
