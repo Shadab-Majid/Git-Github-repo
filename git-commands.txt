@@ -47,3 +47,6 @@ clonning : In cloning we pull any repo from the remote and do work on that. We p
 
 forking: forking is the process of copying any remote repo to you remote repo and then clone or pull that forked repo to you local device and do any changes and after changes we will push and pull from our forked repo and then if we want to add those changes inside the main repo we need to craete a pull request from our remote repo. 
 
+// command to remove the remote device from your local 
+git remote remove origin // your repo
+git remote remove upstream // main repo which you have forked.
