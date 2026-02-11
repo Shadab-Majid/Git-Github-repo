@@ -76,6 +76,10 @@ git checkout -b staging
 git pull upstream staging 
 git push origin staging
 
+we can use this command to map the origin branch with local
+git push -u origin rts-main:prod
+git push -u origin rts-staging:master_civi
+
 by doing this you have the updated code of upstream repo to your forked one.
 
 7. After updating your fork from now if you do any changes to any branch then you need to push this to your origin branc then needs to crate a merge reques from you remote ui.
